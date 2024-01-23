@@ -43,12 +43,6 @@ root = Tk()
 root.geometry("500x500")
 root.title('Path Finder')
 
-entry_4 = StringVar()
-
-def getinfo():
-    main(entry_4.get())
-
-Button(root, text='Submit', width=20, bg="black", fg='white', command=getinfo).place(x=180, y=380)
 
 yel = (242, 227, 7)
 bl = (112, 205, 226)
